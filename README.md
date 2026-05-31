@@ -6,9 +6,13 @@
 
 ## 📓 View the Notebook
 
-👉 **[Click here to view the fully rendered notebook (HTML)](https://manidixit16.github.io/Exploratory-Data-Analysis-Assignment/notebooks/Mani_Dixit_PGDSAI3.html)**
+👉 **[Click here to view the fully rendered notebook (HTML)](https://manidixit16.github.io/Exploratory-Data-Analysis-Assignment/)**
 
-> *Also available as raw notebook:* `notebooks/Mani_Dixit_PGDSAI3.ipynb`
+👉 **[View GitHub Repository](https://github.com/manidixit16/Exploratory-Data-Analysis-Assignment)**
+
+👉 **[View Raw Notebook on GitHub](https://github.com/manidixit16/Exploratory-Data-Analysis-Assignment/blob/main/notebooks/Mani_Dixit_PGDSAI3.ipynb)**
+
+> *GitHub's notebook renderer may show an error due to a known GitHub infrastructure issue. Use the HTML link above for the best viewing experience.*
 
 ---
 
@@ -23,6 +27,7 @@ Exploratory-Data-Analysis-Assignment/
 ├── data/
 │   └── raw/
 │       └── superstore.csv
+├── docs/                            ← GitHub Pages source
 ├── requirements.txt
 └── README.md
 ```
