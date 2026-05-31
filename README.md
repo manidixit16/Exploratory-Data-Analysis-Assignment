@@ -6,9 +6,9 @@
 
 ## 📓 View the Notebook
 
-👉 **[Click here to view the rendered notebook on NBViewer](https://nbviewer.org/github/manidixit16/Exploratory-Data-Analysis-Assignment/blob/main/notebooks/Mani_Dixit_PGDSAI3.ipynb)**
+👉 **[Click here to view the fully rendered notebook (HTML)](https://manidixit16.github.io/Exploratory-Data-Analysis-Assignment/notebooks/Mani_Dixit_PGDSAI3.html)**
 
-> *GitHub sometimes has issues rendering large `.ipynb` files. Use the NBViewer link above for the best viewing experience.*
+> *Also available as raw notebook:* `notebooks/Mani_Dixit_PGDSAI3.ipynb`
 
 ---
 
@@ -17,11 +17,12 @@
 ```
 Exploratory-Data-Analysis-Assignment/
 ├── notebooks/
-│   ├── Mani_Dixit_PGDSAI3.ipynb   ← Main submission notebook
+│   ├── Mani_Dixit_PGDSAI3.ipynb   ← Jupyter notebook (submission file)
+│   ├── Mani_Dixit_PGDSAI3.html    ← Rendered HTML version (view in browser)
 │   └── *.png                       ← Generated plot images
 ├── data/
 │   └── raw/
-│       └── superstore.csv          ← Source dataset
+│       └── superstore.csv
 ├── requirements.txt
 └── README.md
 ```
@@ -31,10 +32,10 @@ Exploratory-Data-Analysis-Assignment/
 | Section | Topics |
 |---|---|
 | Q1 | Data Cleaning — missing values, duplicates, unknown columns, dtypes |
-| Q2 | Univariate Analysis — Numerical Features (distributions, skewness, outliers) |
-| Q3 | Univariate Analysis — Categorical Features (cardinality, balance, geographic bias) |
-| Q4 | Bivariate Analysis — Numerical vs Numerical (correlations, profit drivers, time trends) |
-| Q5 | Bivariate Analysis — Categorical vs Numerical (profit/sales by category & segment) |
+| Q2 | Univariate Analysis — Numerical Features |
+| Q3 | Univariate Analysis — Categorical Features |
+| Q4 | Bivariate Analysis — Numerical vs Numerical |
+| Q5 | Bivariate Analysis — Categorical vs Numerical |
 | Q6 | Bivariate Analysis — Market vs Region, Category, Country |
 
 ## How to Run Locally
@@ -44,5 +45,3 @@ pip install -r requirements.txt
 cd notebooks
 jupyter notebook Mani_Dixit_PGDSAI3.ipynb
 ```
-
-The notebook reads data from `../data/raw/superstore.csv`.
